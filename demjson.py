@@ -6068,7 +6068,7 @@ MORE INFORMATION:
     
         try:
             opts, args = getopt.getopt( argv,
-                                        'vqfFe:o:sSW',
+                                        'vqfFe:o:sSWh',
                                         ['verbose','quiet',
                                          'format','format-compactly',
                                          'stats',
