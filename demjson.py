@@ -6278,4 +6278,10 @@ the options --allow, --warn, or --forbid ; for example:
             return 1
         return 0
 
+
+if __name__ == '__main__':
+    import sys
+    lint = jsonlint( sys.argv[0] )
+    sys.exit(lint.main( sys.argv[1:] ))
+
 # end file
